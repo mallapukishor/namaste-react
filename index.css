@@ -1,4 +1,13 @@
 #header{
-    background-color: red;
-    color: greenyellow;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-weight: bold;
+    padding: auto;
+}
+.head{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
 }

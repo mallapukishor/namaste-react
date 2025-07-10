@@ -1,0 +1,35 @@
+{
+  "name": "namast-react-js",
+  "version": "1.0.0",
+  "description": "this is Namaste React by kishor",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mallapukishor/namaste-react.git"
+  },
+  "keywords": [
+    "react",
+    "namaste",
+    "react",
+    "kishor"
+  ],
+  "author": "kishor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mallapukishor/namaste-react/issues"
+  },
+  "homepage": "https://github.com/mallapukishor/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist":[
+    "last 2 Chrome  version",
+    "last 2 Firefox version"
+  ]
+}
