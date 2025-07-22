@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createElement } from "react";
 import ReactDOM from "react-dom/client";
 
 {/*const parent=React.createElement("div",{id:"parent"},[
@@ -21,19 +21,33 @@ import ReactDOM from "react-dom/client";
      const root= ReactDOM.createRoot(document.getElementById("root"));
      root.render(jsxheading);*/}
 
-const Title=()=>(
-    <h1 className="head" tablIndex="5">this is convertion react element to react component</h1>
-);
-const HeadingComponent=()=>(
-    <div id="container">
-        <Title/>
-        <h1 className="heading">namaste react function component</h1>
+// const Title=()=>(
+//     <h1 className="head" tablIndex="5">this is convertion react element to react component</h1>
+// );
+// const HeadingComponent=()=>(
+//     <div id="container">
+//         <Title/>
+//         <h1 className="heading">namaste react function component</h1>
 
+//     </div>
+// )
+//     const root= ReactDOM.createRoot(document.getElementById("root"));
+//     root.render(<HeadingComponent/>)
+//const title=React.createElement("h1",{},"this react element")
+//const Title=()=>(
+    //<h1>this is react create component </h1>
+//);
+//const a= 1000
+const FunctionCompoent= () =>(
+    <div>
+           <h1> this is a namaste react component</h1>
     </div>
-)
-    const root= ReactDOM.createRoot(document.getElementById("root"));
-    root.render(<HeadingComponent/>)
 
-
+);
+//const title=React.createElement("h1",{},"this is react element",
+    //<div><FunctionCompoent/></div>
+//)
+const root=ReactDOM. createRoot(document.getElementById("root"));
+root.render(<FunctionCompoent/>)
   
      
